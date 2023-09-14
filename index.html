@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Kalkulator Matematik Persegi </title>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Persegi</h1>
+    </header>
+    <nav>
+        <ul class="list">
+            <li><a href="#luas">Luas Persegi</a></li>
+            <hr>
+            <li><a href="#keliling">Keliling Persegi</a></li>
+        </ul>
+    </nav>
+    <div class="luassemua" id="luas">
+    <div class="bannerluas">
+        <h2>Luas Persegi</h2>
+    </div>
+        <img class="img" src="assets/Persegi.png" alt="Persegi">
+    <div class="teksluas">
+        <h3>Rumus Luas Persegi adalah :</h3>
+        <h3>L = s x s</h3>
+        <h3>S = Sisi Persegi = 6 cm</h3>
+    </div>
+    <hr>
+    <section class="luaspersegi">
+        <input type="number" id="SL1" placeholder="Sisi">
+        <h5> X </h5>
+        <input type="number" id="SL2" placeholder="Sisi ">
+    </section>
+    <section class="luasbutton">
+        <button onclick="luasBtn()">Hitung</button>
+        <button onclick="rlBtn()">Ulangi</button>
+    </section>
+    <div id="outluas"></div>
+    </div>
+    <div class="kelilingsemua" id="keliling">
+        <div class="bannerluas">
+            <h2>Keliling Persegi</h2>
+        </div>
+            <img class="img" src="assets/Persegi.png" alt="Persegi">
+        <div class="tekskeliling">
+            <h3>Rumus Keliling Persegi adalah :</h3>
+            <h3>K = s x 4</h3>
+            <h3>S = Sisi Persegi = 6 cm</h3>
+        </div>
+        <hr>
+        <section class="kelilingpersegi">
+            <input type="number" id="skel" placeholder="Sisi">
+            <h5> X </h5>
+            <h5>4</h5>
+        </section>
+        <section class="kelilingbutton">
+            <button onclick="kelBtn()">Hitung</button>
+            <button onclick="rkBtn()">Ulangi</button>
+        </section>
+        <div id="outkeliling"></div>
+        </div>
+    </div>
+    <footer class="footer">
+       <p>Oldy Hamonangan</p>
+    </footer>
+</body>
+</html>

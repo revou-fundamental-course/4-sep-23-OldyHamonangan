@@ -1,0 +1,193 @@
+html {
+    background-color: #61677A;
+}
+
+body {
+    font-family: helvetica, 'Times New Roman', sans-serif;
+}
+
+header {
+    background-color: #272829;
+    height: 80px;
+    display: flex;
+    color: #D8D9DA;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+nav {
+    background-color: #272829;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+li a {
+    color: #D8D9DA;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;;
+}
+
+li a:hover {
+    color: #FEFBF6;
+
+}
+
+.luaspersegi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50%;
+    margin-right: 50%;
+    gap: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #272829;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+    border-color: black;
+
+}
+
+input:focus {
+    border-color: #D8D9DA;
+}
+
+.luasbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 14px;
+    border-radius: 5px;
+    border-color: #D8D9DA;
+    font-weight: bold;
+    background-color: #D8D9DA;
+    color: #272829;
+    border: none;
+}
+
+button:hover {
+    background-color: #61677A;
+    color: #FFF6E0;
+}
+
+button:active {
+    transform: translateY(3px);
+}
+
+.img {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.teksluas {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.bannerluas {
+    background-color: #272829;
+    height: 50px;
+    color: #D8D9DA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.luassemua {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    height: 600px;
+}
+
+.footer {
+    background-color: #272829;
+    color: #D8D9DA;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#outluas {
+    color: #272829;
+    margin-left: 20px;
+    font-weight: bold;  
+}
+
+.kelilingsemua {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.tekskeliling {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.kelilingpersegi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50%;
+    margin-right: 50%;
+    gap: 10px;
+}
+
+.kelilingbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#outkeliling {
+    color: #272829;
+    margin-left: 20px;
+    font-weight: bold;
+}
